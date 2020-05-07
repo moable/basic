@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- 1.まずはhtmlの枠の中にheadとbodyを制作する -->
+<html>
+<head>
+<!-- 2.head欄に文字コード、タイトル、cssfileをロードする -->
+  <meta charset="utf-8">
+  <title>Practice HTML&CSS</title>
+<!-- *rel="stylesheet"-->
+  <link rel="stylesheet" href="practicesheet.css">
+</head>
+<body>
+　<!-- 3.body欄にdivtagでヘッダー、メイン、フッタークラスを用意する -->
+  <div class="header">
+    <!-- 5.headerを編集してロゴとリストを制作 -->
+    <div class="header-logo">Progate</div>
+    <div class="header-list">
+      <ul>
+        <li>About</li>
+        <li>Lesson</li>
+        <li>Contact us</li>
+      </ul>
+    </div>
+   </div>
+   <div class="main">
+     <!-- 11.mainに新たに3つの項目を作る -->
+     <div class="copy-container">
+       <!-- 12.<span>と</span>で括った部分を編集できる -->
+       <h1>HELLO WORLD<span>.</span></h1>
+       <h2>Let`s learn to code</h2>
+     </div>
+     <div class="contents">
+       <!-- 14.ボーダをつけるためにクラス分け -->
+       <h3 class="section-title">Lessons</h3>
+       <!-- 12.contens-itemを４つ制作 -->
+       <!-- 13.img srcで画像を取り込む <p>:paragraph -->
+       <div class="contents-item">
+         <img src="https://goo.gl/eBFzag">
+         <p>HTML</p>
+       </div>
+       <div class="contents-item">
+         <img src="https://goo.gl/cD4G4v">
+         <p>PHP</p>
+       </div>
+       <div class="contents-item">
+         <img src="https://goo.gl/AP7QMx">
+         <p>Ruby</p>
+       </div>
+       <div class="contents-item">
+         <img src="https://goo.gl/12ijma">
+         <p>Swift</p>
+       </div>
+     </div>
+     <div class="contact-form">
+       <!-- クラス名"section-title"を上で制作しているため、ボーダーがつく -->
+       <h3 class="section-title">Contact us</h3>
+       <p>Email (Required)</p>
+       <!-- 16.<input>と<textarea>を制作 -->
+       <input>
+       <p>Message (Required)</p>
+       <textarea></textarea>
+       <p>*Required fields must be filled.</p>
+       <input class="contact-submit" type="submit" value="Send">
+     </div>
+   </div>
+   <div class="footer">
+     <!-- 8.footerにlogoとlistを追加 -->
+     <div class="footer-logo">Progate</div>
+     <div class="footer-list">
+       <ul>
+         <li>About</li>
+         <li>Jobs</li>
+         <li>Contact us</li>
+       </ul>
+     </div>
+   </div>
+ </body>
+</html>
